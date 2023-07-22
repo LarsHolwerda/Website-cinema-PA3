@@ -1,0 +1,131 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+p {
+  color:white;
+  font-size: 28px;
+  border-bottom-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding: 3px
+}
+
+header{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section{
+  color: white;
+  font-family: 'Avenir';
+  font-size: 24px;
+  text-align: center; 
+  margin-left:10%;
+  margin-right:10%;
+  padding: 10px;
+}
+
+#description{
+  font-size: 20px;
+  border-bottom-style: none;
+
+}
+
+button{
+  width:25%;
+  height:84px;
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  font-size: 30px;
+  color: white;
+}
+
+#remove{
+  font-size: 20px;
+  width: auto;
+  height:40px;
+  margin-left: 20px;
+}
+
+label{
+  color: white;
+  font-size: 20px;
+}
+
+select{
+  width:30%;
+  height:84px;
+  background-color: black;
+  border-color: white;
+  border-style: solid;
+  font-size: 30px;
+  color: white;
+}
+
+.topnav ul li a.active-page
+{
+  background-color:blue;
+}
+
+.topnav {
+  border-bottom: 1px solid grey;
+  background-color: black;
+  overflow: hidden;
+  font-family: 'Futura PT'; 
+  text-align: center;
+}
+
+.topnav ul {
+  width: 100%;
+  display: inline-block;
+  margin: auto;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li {
+  margin:auto;
+  display: inline;
+  float: left;
+  text-align: center;
+  width: 20%;
+  height: 84px;
+  line-height: 84px;
+  color: white;
+  font-size: 25px;
+}
+
+a {
+  color: white;
+}
